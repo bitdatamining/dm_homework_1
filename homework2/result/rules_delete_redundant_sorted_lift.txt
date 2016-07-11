@@ -1,0 +1,11 @@
+   lhs                   rhs            support   confidence lift    
+10 {Nausea}           => {Nephritis}    0.2416667 1.0000000  2.400000
+8  {high}             => {Nephritis}    0.3416667 0.8039216  1.929412
+3  {LumbarPain}       => {Nephritis}    0.4166667 0.7142857  1.714286
+4  {MicturitionPain}  => {Inflammation} 0.4083333 0.8305085  1.689170
+6  {low}              => {Inflammation} 0.2500000 0.7500000  1.525424
+1  {UrinePush}        => {Inflammation} 0.4916667 0.7375000  1.500000
+9  {BurningOfUrethra} => {Nephritis}    0.2500000 0.6000000  1.440000
+7  {Nausea}           => {Inflammation} 0.1583333 0.6551724  1.332554
+2  {UrinePush}        => {Nephritis}    0.3333333 0.5000000  1.200000
+5  {BurningOfUrethra} => {Inflammation} 0.2416667 0.5800000  1.179661

@@ -1,0 +1,553 @@
+Eclat
+
+parameter specification:
+ tidLists support minlen maxlen            target   ext
+    FALSE     0.1      1      8 frequent itemsets FALSE
+
+algorithmic control:
+ sparse sort verbose
+      7   -2    TRUE
+
+Absolute minimum support count: 12 
+
+create itemset ... 
+set transactions ...[11 item(s), 120 transaction(s)] done [0.00s].
+sorting and recoding items ... [10 item(s)] done [0.00s].
+creating bit matrix ... [10 row(s), 120 column(s)] done [0.00s].
+writing  ... [158 set(s)] done [0.00s].
+Creating S4 object  ... done [0.00s].
+    items                support
+1   {Inflammation,              
+     low,                       
+     MicturitionPain,           
+     UrinePush}        0.1666667
+2   {Inflammation,              
+     low,                       
+     UrinePush}        0.2500000
+3   {Inflammation,              
+     low,                       
+     MicturitionPain}  0.1666667
+4   {low,                       
+     MicturitionPain,           
+     UrinePush}        0.1666667
+5   {low,                       
+     UrinePush}        0.2500000
+6   {low,                       
+     MicturitionPain}  0.1666667
+7   {Inflammation,              
+     low}              0.2500000
+8   {high,                      
+     Inflammation,              
+     LumbarPain,                
+     MicturitionPain,           
+     Nausea,                    
+     Nephritis,                 
+     UrinePush}        0.1583333
+9   {high,                      
+     Inflammation,              
+     MicturitionPain,           
+     Nausea,                    
+     Nephritis,                 
+     UrinePush}        0.1583333
+10  {high,                      
+     Inflammation,              
+     LumbarPain,                
+     MicturitionPain,           
+     Nausea,                    
+     Nephritis}        0.1583333
+11  {high,                      
+     Inflammation,              
+     LumbarPain,                
+     Nausea,                    
+     Nephritis,                 
+     UrinePush}        0.1583333
+12  {high,                      
+     Inflammation,              
+     Nausea,                    
+     Nephritis,                 
+     UrinePush}        0.1583333
+13  {high,                      
+     Inflammation,              
+     LumbarPain,                
+     Nausea,                    
+     Nephritis}        0.1583333
+14  {high,                      
+     Inflammation,              
+     MicturitionPain,           
+     Nausea,                    
+     Nephritis}        0.1583333
+15  {high,                      
+     LumbarPain,                
+     MicturitionPain,           
+     Nausea,                    
+     Nephritis,                 
+     UrinePush}        0.1583333
+16  {high,                      
+     MicturitionPain,           
+     Nausea,                    
+     Nephritis,                 
+     UrinePush}        0.1583333
+17  {high,                      
+     LumbarPain,                
+     MicturitionPain,           
+     Nausea,                    
+     Nephritis}        0.2416667
+18  {high,                      
+     LumbarPain,                
+     Nausea,                    
+     Nephritis,                 
+     UrinePush}        0.1583333
+19  {high,                      
+     Nausea,                    
+     Nephritis,                 
+     UrinePush}        0.1583333
+20  {high,                      
+     LumbarPain,                
+     Nausea,                    
+     Nephritis}        0.2416667
+21  {high,                      
+     MicturitionPain,           
+     Nausea,                    
+     Nephritis}        0.2416667
+22  {high,                      
+     Inflammation,              
+     Nausea,                    
+     Nephritis}        0.1583333
+23  {high,                      
+     Inflammation,              
+     LumbarPain,                
+     MicturitionPain,           
+     Nausea,                    
+     UrinePush}        0.1583333
+24  {high,                      
+     Inflammation,              
+     MicturitionPain,           
+     Nausea,                    
+     UrinePush}        0.1583333
+25  {high,                      
+     Inflammation,              
+     LumbarPain,                
+     MicturitionPain,           
+     Nausea}           0.1583333
+26  {high,                      
+     Inflammation,              
+     LumbarPain,                
+     Nausea,                    
+     UrinePush}        0.1583333
+27  {high,                      
+     Inflammation,              
+     Nausea,                    
+     UrinePush}        0.1583333
+28  {high,                      
+     Inflammation,              
+     LumbarPain,                
+     Nausea}           0.1583333
+29  {high,                      
+     Inflammation,              
+     MicturitionPain,           
+     Nausea}           0.1583333
+30  {high,                      
+     LumbarPain,                
+     MicturitionPain,           
+     Nausea,                    
+     UrinePush}        0.1583333
+31  {high,                      
+     MicturitionPain,           
+     Nausea,                    
+     UrinePush}        0.1583333
+32  {high,                      
+     LumbarPain,                
+     MicturitionPain,           
+     Nausea}           0.2416667
+33  {high,                      
+     LumbarPain,                
+     Nausea,                    
+     UrinePush}        0.1583333
+34  {high,                      
+     Nausea,                    
+     UrinePush}        0.1583333
+35  {high,                      
+     LumbarPain,                
+     Nausea}           0.2416667
+36  {high,                      
+     MicturitionPain,           
+     Nausea}           0.2416667
+37  {high,                      
+     Inflammation,              
+     Nausea}           0.1583333
+38  {high,                      
+     Nausea,                    
+     Nephritis}        0.2416667
+39  {Inflammation,              
+     LumbarPain,                
+     MicturitionPain,           
+     Nausea,                    
+     Nephritis,                 
+     UrinePush}        0.1583333
+40  {Inflammation,              
+     MicturitionPain,           
+     Nausea,                    
+     Nephritis,                 
+     UrinePush}        0.1583333
+41  {Inflammation,              
+     LumbarPain,                
+     MicturitionPain,           
+     Nausea,                    
+     Nephritis}        0.1583333
+42  {Inflammation,              
+     LumbarPain,                
+     Nausea,                    
+     Nephritis,                 
+     UrinePush}        0.1583333
+43  {Inflammation,              
+     Nausea,                    
+     Nephritis,                 
+     UrinePush}        0.1583333
+44  {Inflammation,              
+     LumbarPain,                
+     Nausea,                    
+     Nephritis}        0.1583333
+45  {Inflammation,              
+     MicturitionPain,           
+     Nausea,                    
+     Nephritis}        0.1583333
+46  {LumbarPain,                
+     MicturitionPain,           
+     Nausea,                    
+     Nephritis,                 
+     UrinePush}        0.1583333
+47  {MicturitionPain,           
+     Nausea,                    
+     Nephritis,                 
+     UrinePush}        0.1583333
+48  {LumbarPain,                
+     MicturitionPain,           
+     Nausea,                    
+     Nephritis}        0.2416667
+49  {LumbarPain,                
+     Nausea,                    
+     Nephritis,                 
+     UrinePush}        0.1583333
+50  {Nausea,                    
+     Nephritis,                 
+     UrinePush}        0.1583333
+51  {LumbarPain,                
+     Nausea,                    
+     Nephritis}        0.2416667
+52  {MicturitionPain,           
+     Nausea,                    
+     Nephritis}        0.2416667
+53  {Inflammation,              
+     Nausea,                    
+     Nephritis}        0.1583333
+54  {Inflammation,              
+     LumbarPain,                
+     MicturitionPain,           
+     Nausea,                    
+     UrinePush}        0.1583333
+55  {Inflammation,              
+     MicturitionPain,           
+     Nausea,                    
+     UrinePush}        0.1583333
+56  {Inflammation,              
+     LumbarPain,                
+     MicturitionPain,           
+     Nausea}           0.1583333
+57  {Inflammation,              
+     LumbarPain,                
+     Nausea,                    
+     UrinePush}        0.1583333
+58  {Inflammation,              
+     Nausea,                    
+     UrinePush}        0.1583333
+59  {Inflammation,              
+     LumbarPain,                
+     Nausea}           0.1583333
+60  {Inflammation,              
+     MicturitionPain,           
+     Nausea}           0.1583333
+61  {LumbarPain,                
+     MicturitionPain,           
+     Nausea,                    
+     UrinePush}        0.1583333
+62  {MicturitionPain,           
+     Nausea,                    
+     UrinePush}        0.1583333
+63  {LumbarPain,                
+     MicturitionPain,           
+     Nausea}           0.2416667
+64  {LumbarPain,                
+     Nausea,                    
+     UrinePush}        0.1583333
+65  {Nausea,                    
+     UrinePush}        0.1583333
+66  {LumbarPain,                
+     Nausea}           0.2416667
+67  {MicturitionPain,           
+     Nausea}           0.2416667
+68  {Inflammation,              
+     Nausea}           0.1583333
+69  {Nausea,                    
+     Nephritis}        0.2416667
+70  {high,                      
+     Nausea}           0.2416667
+71  {BurningOfUrethra,          
+     high,                      
+     LumbarPain,                
+     Nephritis,                 
+     UrinePush}        0.1750000
+72  {BurningOfUrethra,          
+     high,                      
+     Nephritis,                 
+     UrinePush}        0.1750000
+73  {BurningOfUrethra,          
+     high,                      
+     LumbarPain,                
+     Nephritis}        0.1750000
+74  {BurningOfUrethra,          
+     high,                      
+     LumbarPain,                
+     UrinePush}        0.1750000
+75  {BurningOfUrethra,          
+     high,                      
+     UrinePush}        0.1750000
+76  {BurningOfUrethra,          
+     high,                      
+     LumbarPain}       0.1750000
+77  {BurningOfUrethra,          
+     high,                      
+     Nephritis}        0.1750000
+78  {high,                      
+     Inflammation,              
+     LumbarPain,                
+     MicturitionPain,           
+     Nephritis,                 
+     UrinePush}        0.1583333
+79  {high,                      
+     Inflammation,              
+     MicturitionPain,           
+     Nephritis,                 
+     UrinePush}        0.1583333
+80  {high,                      
+     Inflammation,              
+     LumbarPain,                
+     MicturitionPain,           
+     Nephritis}        0.1583333
+81  {high,                      
+     Inflammation,              
+     LumbarPain,                
+     Nephritis,                 
+     UrinePush}        0.1583333
+82  {high,                      
+     Inflammation,              
+     Nephritis,                 
+     UrinePush}        0.1583333
+83  {high,                      
+     Inflammation,              
+     LumbarPain,                
+     Nephritis}        0.1583333
+84  {high,                      
+     Inflammation,              
+     MicturitionPain,           
+     Nephritis}        0.1583333
+85  {high,                      
+     LumbarPain,                
+     MicturitionPain,           
+     Nephritis,                 
+     UrinePush}        0.1583333
+86  {high,                      
+     MicturitionPain,           
+     Nephritis,                 
+     UrinePush}        0.1583333
+87  {high,                      
+     LumbarPain,                
+     MicturitionPain,           
+     Nephritis}        0.2416667
+88  {high,                      
+     LumbarPain,                
+     Nephritis,                 
+     UrinePush}        0.2583333
+89  {high,                      
+     Nephritis,                 
+     UrinePush}        0.2583333
+90  {high,                      
+     LumbarPain,                
+     Nephritis}        0.3416667
+91  {high,                      
+     MicturitionPain,           
+     Nephritis}        0.2416667
+92  {high,                      
+     Inflammation,              
+     Nephritis}        0.1583333
+93  {high,                      
+     Inflammation,              
+     LumbarPain,                
+     MicturitionPain,           
+     UrinePush}        0.1583333
+94  {high,                      
+     Inflammation,              
+     MicturitionPain,           
+     UrinePush}        0.1583333
+95  {high,                      
+     Inflammation,              
+     LumbarPain,                
+     MicturitionPain}  0.1583333
+96  {high,                      
+     Inflammation,              
+     LumbarPain,                
+     UrinePush}        0.1583333
+97  {high,                      
+     Inflammation,              
+     UrinePush}        0.1583333
+98  {high,                      
+     Inflammation,              
+     LumbarPain}       0.1583333
+99  {high,                      
+     Inflammation,              
+     MicturitionPain}  0.1583333
+100 {high,                      
+     LumbarPain,                
+     MicturitionPain,           
+     UrinePush}        0.1583333
+101 {high,                      
+     MicturitionPain,           
+     UrinePush}        0.1583333
+102 {high,                      
+     LumbarPain,                
+     MicturitionPain}  0.2416667
+103 {high,                      
+     LumbarPain,                
+     UrinePush}        0.2583333
+104 {high,                      
+     UrinePush}        0.2583333
+105 {high,                      
+     LumbarPain}       0.3416667
+106 {high,                      
+     MicturitionPain}  0.2416667
+107 {high,                      
+     Inflammation}     0.1583333
+108 {high,                      
+     Nephritis}        0.3416667
+109 {BurningOfUrethra,          
+     high}             0.1750000
+110 {BurningOfUrethra,          
+     LumbarPain,                
+     Nephritis,                 
+     UrinePush}        0.2500000
+111 {BurningOfUrethra,          
+     Nephritis,                 
+     UrinePush}        0.2500000
+112 {BurningOfUrethra,          
+     LumbarPain,                
+     Nephritis}        0.2500000
+113 {BurningOfUrethra,          
+     Inflammation,              
+     MicturitionPain,           
+     UrinePush}        0.2416667
+114 {BurningOfUrethra,          
+     Inflammation,              
+     UrinePush}        0.2416667
+115 {BurningOfUrethra,          
+     Inflammation,              
+     MicturitionPain}  0.2416667
+116 {BurningOfUrethra,          
+     MicturitionPain,           
+     UrinePush}        0.2416667
+117 {BurningOfUrethra,          
+     LumbarPain,                
+     UrinePush}        0.2500000
+118 {BurningOfUrethra,          
+     UrinePush}        0.4166667
+119 {BurningOfUrethra,          
+     LumbarPain}       0.2500000
+120 {BurningOfUrethra,          
+     MicturitionPain}  0.2416667
+121 {BurningOfUrethra,          
+     Inflammation}     0.2416667
+122 {BurningOfUrethra,          
+     Nephritis}        0.2500000
+123 {Inflammation,              
+     LumbarPain,                
+     MicturitionPain,           
+     Nephritis,                 
+     UrinePush}        0.1583333
+124 {Inflammation,              
+     MicturitionPain,           
+     Nephritis,                 
+     UrinePush}        0.1583333
+125 {Inflammation,              
+     LumbarPain,                
+     MicturitionPain,           
+     Nephritis}        0.1583333
+126 {Inflammation,              
+     LumbarPain,                
+     Nephritis,                 
+     UrinePush}        0.1583333
+127 {Inflammation,              
+     Nephritis,                 
+     UrinePush}        0.1583333
+128 {Inflammation,              
+     LumbarPain,                
+     Nephritis}        0.1583333
+129 {Inflammation,              
+     MicturitionPain,           
+     Nephritis}        0.1583333
+130 {LumbarPain,                
+     MicturitionPain,           
+     Nephritis,                 
+     UrinePush}        0.1583333
+131 {MicturitionPain,           
+     Nephritis,                 
+     UrinePush}        0.1583333
+132 {LumbarPain,                
+     MicturitionPain,           
+     Nephritis}        0.2416667
+133 {LumbarPain,                
+     Nephritis,                 
+     UrinePush}        0.3333333
+134 {Nephritis,                 
+     UrinePush}        0.3333333
+135 {LumbarPain,                
+     Nephritis}        0.4166667
+136 {MicturitionPain,           
+     Nephritis}        0.2416667
+137 {Inflammation,              
+     Nephritis}        0.1583333
+138 {Inflammation,              
+     LumbarPain,                
+     MicturitionPain,           
+     UrinePush}        0.1583333
+139 {Inflammation,              
+     MicturitionPain,           
+     UrinePush}        0.4083333
+140 {Inflammation,              
+     LumbarPain,                
+     MicturitionPain}  0.1583333
+141 {Inflammation,              
+     LumbarPain,                
+     UrinePush}        0.1583333
+142 {Inflammation,              
+     UrinePush}        0.4916667
+143 {Inflammation,              
+     LumbarPain}       0.1583333
+144 {Inflammation,              
+     MicturitionPain}  0.4083333
+145 {LumbarPain,                
+     MicturitionPain,           
+     UrinePush}        0.1583333
+146 {MicturitionPain,           
+     UrinePush}        0.4083333
+147 {LumbarPain,                
+     MicturitionPain}  0.2416667
+148 {LumbarPain,                
+     UrinePush}        0.3333333
+149 {UrinePush}        0.6666667
+150 {LumbarPain}       0.5833333
+151 {MicturitionPain}  0.4916667
+152 {Inflammation}     0.4916667
+153 {Nephritis}        0.4166667
+154 {BurningOfUrethra} 0.4166667
+155 {high}             0.4250000
+156 {Nausea}           0.2416667
+157 {low}              0.3333333
+158 {normal}           0.1666667
